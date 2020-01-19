@@ -1,0 +1,7 @@
+# Stock Market Buy/Sell/Hold prediction Using convolutional Neural Network
+This repo is an attempt to implement the research paper titled "Algorithmic Financial Trading with Deep Convolutional Neural Networks: Time Series to Image Conversion Approach" which can be found on the internet.
+
+Reference: Sezer, Omer & Ozbayoglu, Murat. (2018). Algorithmic Financial Trading with Deep Convolutional Neural Networks: Time Series to Image Conversion Approach. Applied Soft Computing. 70. 10.1016/j.asoc.2018.04.024.
+
+This paper was shared to me by someone and it immediately caught my attention. The paper in itself may not be the best one out there but the idea seemed quite intriguing. The idea is to calculate technical indicators for each day with varying window sizes, then convert each day's indicators to image and feed it to a Convolutional Neural Network to train. Labeling alogrithm used here is the same as the one used by the authors. One thing to be noted here is that this project is not an exact implementation of the paper. There were some portions where authors were not clear about implementation of certain things e.g. they had mentioned a technical indicator in the paper which only calculated for window size = 14 and not varying window sizes. Or may be it wasn't apparent to my peasant mind. Anyways, in such cases I have used my own judgement.
+For more details/explanation read my [blog here](https://medium.com/@asutoshnayak/stock-market-action-prediction-with-convnet-8689238feae3).
