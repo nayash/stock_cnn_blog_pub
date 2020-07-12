@@ -13,8 +13,8 @@ import time
 
 import numpy as np
 import pandas as pd
-import tensorflow as tf
 from sklearn.metrics import confusion_matrix, f1_score
+import tensorflow as tf
 from tensorflow.keras.models import Sequential, load_model, Model
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Flatten, LeakyReLU

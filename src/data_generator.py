@@ -137,11 +137,11 @@ class DataGenerator:
                         max_index = i
 
                 if max_index == window_middle:
-                    labels[row_counter] = 0
+                    labels[window_middle] = 0
                 elif min_index == window_middle:
-                    labels[row_counter] = 1
+                    labels[window_middle] = 1
                 else:
-                    labels[row_counter] = 2
+                    labels[window_middle] = 2
 
             row_counter = row_counter + 1
             pbar.update(1)
